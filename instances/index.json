@@ -1,0 +1,14 @@
+{
+  "type": "instances_index",
+  "root": "https://third.site",
+  "updated_at": "2026-01-16T00:00:00Z",
+  "instances": [
+    {
+      "event_id": "za-extra-kraj",
+      "timestamp_utc": "2026-01-15T09:19:45Z",
+      "path": "/instances/za-extra-kraj/2026-01-15T09-19-45Z/",
+      "decision": "/instances/za-extra-kraj/2026-01-15T09-19-45Z/decision.json",
+      "reality_declaration": "/instances/za-extra-kraj/2026-01-15T09-19-45Z/reality_declaration.json"
+    }
+  ]
+}
