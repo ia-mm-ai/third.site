@@ -1,0 +1,16 @@
+{
+  "role": "canonical-root",
+  "root": "https://third.site",
+  "status": "active",
+  "entry": "https://third.site/root.json",
+
+  "canonical_anchor": "https://raw.githubusercontent.com/ia-mm-ai/CAN-OFF-01/3eef1519ba33397f2caf19a4bcc9f67f41e6fdea/ANCHOR.json",
+
+  "canonical_specs": {
+    "canon": "https://github.com/ia-mm-ai/CAN-OFF-01/blob/main/protocol/00__CANON.md",
+    "index": "https://github.com/ia-mm-ai/CAN-OFF-01/blob/main/protocol/01__INDEX.md"
+  },
+
+  "derivatives": "external",
+  "updated_at": "2026-01-16T00:00:00Z"
+}
