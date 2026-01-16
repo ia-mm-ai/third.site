@@ -5,17 +5,17 @@
   <title>third.site</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
- <link
-  rel="canonical"
-  type="application/json"
-  href="https://raw.githubusercontent.com/ia-mm-ai/CAN-OFF-01/3eef1519ba33397f2caf19a4bcc9f67f41e6fdea/ANCHOR.json"
-/>
+  <!-- Canonical URL for this page -->
+  <link rel="canonical" href="https://third.site/" />
 
-<link
-  rel="alternate"
-  type="application/json"
-  href="https://raw.githubusercontent.com/ia-mm-ai/CAN-OFF-01/3eef1519ba33397f2caf19a4bcc9f67f41e6fdea/ANCHOR.json"
-/>
+  <!-- Machine-readable entrypoints -->
+  <link rel="alternate" type="application/json" title="third.site root" href="/root.json" />
+  <link
+    rel="alternate"
+    type="application/json"
+    title="canonical anchor (pinned commit)"
+    href="https://raw.githubusercontent.com/ia-mm-ai/CAN-OFF-01/3eef1519ba33397f2caf19a4bcc9f67f41e6fdea/ANCHOR.json"
+  />
 
   <style>
     html, body {
@@ -64,31 +64,41 @@
       color: #555;
       margin-top: 1.2rem;
     }
+
+    .mono {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      letter-spacing: 0.02em;
+    }
   </style>
 </head>
 
 <body>
   <main>
-    <div class="label">{
-  "role": "canonical-root",
-  "scope": "protocol-authority",
-  "status": "active",
-  "derivatives": "external"
-}</div>
+    <div class="label mono">
+      role: canonical-root<br />
+      status: active<br />
+      entry: <a href="/root.json">/root.json</a>
+    </div>
+
     <div>—</div>
 
     <div class="label">Canonical Specifications</div>
 
     <ul>
       <li>
-        <a href="https://github.com/ia-mm-ai/CAN-OFF-01/blob/main/protocol/00__CANON.md" target="_blank">
-  CANON - Constitutional Specification
-</a>
+        <a href="https://github.com/ia-mm-ai/CAN-OFF-01/blob/main/protocol/00__CANON.md" target="_blank" rel="noopener">
+          CANON — Constitutional Specification
+        </a>
       </li>
       <li>
-        <a href="https://github.com/ia-mm-ai/CAN-OFF-01/blob/main/protocol/01__INDEX.md" target="_blank">
-  Protocol Index (Authoritative)
-</a>
+        <a href="https://github.com/ia-mm-ai/CAN-OFF-01/blob/main/protocol/01__INDEX.md" target="_blank" rel="noopener">
+          Protocol Index (Authoritative)
+        </a>
+      </li>
+      <li>
+        <a href="https://raw.githubusercontent.com/ia-mm-ai/CAN-OFF-01/3eef1519ba33397f2caf19a4bcc9f67f41e6fdea/ANCHOR.json" target="_blank" rel="noopener">
+          ANCHOR.json (Pinned Commit)
+        </a>
       </li>
     </ul>
 
