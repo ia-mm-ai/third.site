@@ -1,0 +1,13 @@
+{
+  "type": "proof_of_reality",
+  "canon_version": "v1.0",
+  "event": "ZA EXTRA KRAJ",
+  "event_id": "za-extra-kraj",
+  "path": ["Recognition", "Presence", "Resolution"],
+  "authority": "Human-governed, AI co-reasoned",
+  "timestamp_utc": "2026-01-15T09:19:45Z",
+  "declaration_hash_sha256": "23a965a6d670e50e4539ac8233a59034920405ca38bbccc0cb0b5dad7e136e8b",
+  "artifacts": {
+    "reality_declaration_json": "./reality_declaration.json"
+  }
+}
