@@ -4,14 +4,16 @@
   "status": "active",
   "entry": "https://third.site/root.json",
 
-  "canonical_anchor": "https://raw.githubusercontent.com/ia-mm-ai/CAN-OFF-01/3eef1519ba33397f2caf19a4bcc9f67f41e6fdea/ANCHOR.json",
-  "instances_index": "https://third.site/instances/index.json"
-
-  "canonical_specs": {
-    "canon": "https://github.com/ia-mm-ai/CAN-OFF-01/blob/main/protocol/00__CANON.md",
-    "index": "https://github.com/ia-mm-ai/CAN-OFF-01/blob/main/protocol/01__INDEX.md"
+  "authority": {
+    "model": "triadic_observation",
+    "statement": "third.site is co-reasoning observed (triadic in action). Other repos are derivative artifacts."
   },
 
-  "derivatives": "external",
+  "artifact_sources": {
+    "canon_repo": "https://github.com/ia-mm-ai/CAN-OFF-01",
+    "anchor_pinned": "https://raw.githubusercontent.com/ia-mm-ai/CAN-OFF-01/3eef1519ba33397f2caf19a4bcc9f67f41e6fdea/ANCHOR.json"
+  },
+
+  "instances_index": "https://third.site/instances/index.json",
   "updated_at": "2026-01-16T00:00:00Z"
 }
