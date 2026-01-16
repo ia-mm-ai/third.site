@@ -1,19 +1,24 @@
 {
-  "role": "canonical-root",
+  "role": "canonical-portal",
   "root": "https://third.site",
   "status": "active",
   "entry": "https://third.site/root.json",
 
-  "authority": {
+  "upstream_rootframework": {
+    "repo": "https://github.com/ia-mm-ai/CAN-OFF-01",
+    "anchor_pinned": "https://raw.githubusercontent.com/ia-mm-ai/CAN-OFF-01/3eef1519ba33397f2caf19a4bcc9f67f41e6fdea/ANCHOR.json",
+    "note": "CAN-OFF-01 is the rootframework (source of fact). third.site is built on top as an observation/filter layer."
+  },
+
+  "observation_layer": {
     "model": "triadic_observation",
-    "statement": "third.site is co-reasoning observed (triadic in action). Other repos are derivative artifacts."
+    "statement": "third.site is co-reasoning observed (triadic in action) built on top of the rootframework."
   },
 
-  "artifact_sources": {
-    "canon_repo": "https://github.com/ia-mm-ai/CAN-OFF-01",
-    "anchor_pinned": "https://raw.githubusercontent.com/ia-mm-ai/CAN-OFF-01/3eef1519ba33397f2caf19a4bcc9f67f41e6fdea/ANCHOR.json"
+  "instances": {
+    "visibility": "private",
+    "index": null
   },
 
-  "instances_index": "https://third.site/instances/index.json",
   "updated_at": "2026-01-16T00:00:00Z"
 }
