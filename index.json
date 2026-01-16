@@ -1,5 +1,0 @@
-{
-  "type": "pointer",
-  "to": "https://third.site/root.json",
-  "note": "Deprecated. Use /root.json"
-}
