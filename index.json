@@ -1,0 +1,7 @@
+{
+  "role": "canonical-root",
+  "root": "https://third.site",
+  "status": "active",
+  "entry": "https://third.site/root.json",
+  "updated_at": "2026-01-16T00:00:00Z"
+}
