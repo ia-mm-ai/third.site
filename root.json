@@ -4,20 +4,48 @@
   "status": "active",
   "entry": "https://third.site/root.json",
 
+  "authority_model": {
+    "type": "triadic_observation",
+    "description": "Co-reasoning observed. third.site is the observation and filtering layer where what is true enough is carried forward."
+  },
+
   "upstream_rootframework": {
+    "name": "CAN-OFF-01",
+    "role": "source_of_fact",
     "repo": "https://github.com/ia-mm-ai/CAN-OFF-01",
     "anchor_pinned": "https://raw.githubusercontent.com/ia-mm-ai/CAN-OFF-01/3eef1519ba33397f2caf19a4bcc9f67f41e6fdea/ANCHOR.json",
-    "note": "CAN-OFF-01 is the rootframework (source of fact). third.site is built on top as an observation/filter layer."
+    "note": "The rootframework defines the protocol and constitutional substrate. It is upstream of observation."
   },
 
   "observation_layer": {
-    "model": "triadic_observation",
-    "statement": "third.site is co-reasoning observed (triadic in action) built on top of the rootframework."
+    "operator": "human + AI",
+    "mode": "co-reasoned",
+    "constraints": {
+      "mutation": "append_only",
+      "deletion": "forbidden",
+      "reinterpretation": "disallowed"
+    }
   },
 
   "instances": {
-    "visibility": "private",
-    "index": null
+    "visibility": "public",
+    "policy": {
+      "scope": "observed_reality_only",
+      "derivation": "from_rootframework",
+      "authority": "observed_not_authored"
+    },
+    "index": "https://third.site/instances/index.json"
+  },
+
+  "derivative_surfaces": {
+    "type": "witness_or_projection",
+    "examples": ["mm.*"],
+    "rule": "must_reference_root"
+  },
+
+  "immutability": {
+    "rootframework": "pinned_by_commit",
+    "instances": "pinned_by_content_hash"
   },
 
   "updated_at": "2026-01-16T00:00:00Z"
